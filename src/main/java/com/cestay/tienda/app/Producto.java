@@ -2,11 +2,11 @@ package com.cestay.tienda.app;
 
 public class Producto {
 
-    private long id;
+    private Long id;
     private String nombre;
     private double precio;
 
-    public Producto(long id, String nombre, double precio) {
+    public Producto(Long id, String nombre, double precio) {
         this.id = id;
         this.nombre = nombre;
         this.precio = precio;
